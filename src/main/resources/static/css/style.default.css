@@ -1,0 +1,44 @@
+/**register**/
+.content,body,html{height:100%}
+.content{background-color:#EEE;display:flex;align-items:center;justify-content:center}
+.content .register{width:40rem;background-color:#fff;padding:3rem;border-radius:.5rem;box-shadow:.1rem .1rem .1rem #b9def0}
+.content .register h1{text-align:center;font-size:4rem;color:#0f0f0f}
+.content .register .form-control{margin-bottom:1.5rem}
+.content .register .btn{width:100%}.content .register .identify-code label{display:block}
+.content .register .identify-code .form-control{width:64%;display:inline-block}
+.content .register .identify-code span{display:inline-block;width:34%}.content .register .footer{margin-top:1rem}
+.content .register .footer .register{float:right}
+.content .btn-info:hover { background-color: #f0721e; }
+
+/**login**/
+.contents,body,html{height:100%}
+.contents{display:flex;align-items:center;justify-content:center}
+#tab { overflow:hidden; position:relative; float:left;}
+img { position:fixed;left:0px;top:0px;z-index: -1;width:100%;height:100%;}
+.contents .login{width:35rem;background-color:#fff;padding:3rem;border-radius:.5rem;box-shadow:.1rem .1rem .1rem #b9def0}
+.contents .login h1{text-align:center;font-size:4rem;color:#fff;}
+.contents .login .form-control{margin-bottom:1.5rem}
+.contents .login .btn{width:100%}
+.contents .login .footer{margin-top:2rem}
+.contents .login .footer .register{float:right}
+.contents .logo { text-align: center; }
+.contents .btn-info:hover { background-color: #f0721e; }
+.contents .logo h1 {
+	font-family: 'RobotoCondensed', Arial, Helvetica, sans-serif; font-size: 32px; color: #fff; border-bottom: 1px solid #fff;
+	line-height: normal; margin-bottom: 5px;
+}
+.contents .logo h1 span { color: #FB9337; }
+.contents .logo p { font-weight: bold; color: #eee; font-style: italic; }
+
+/**find_back**/
+.find_back,body,html{height:100%}
+.find_back{background-color:#EEE;display:flex;align-items:center;justify-content:center}
+.find_back .find-back{width:35rem;background-color:#fff;padding:1.5rem;border-radius:.5rem;box-shadow:.1rem .1rem .1rem #b9def0}
+.find_back .find-back h1{text-align:center;font-size:2.5rem;color:#0f0f0f}
+.find_back .find-back .form-control{margin-bottom:1.5rem}
+.find_back .find-back .btn{width:100%}
+.find_back .find-back .identify-code label{display:block}
+.find_back .find-back .identify-code .form-control{width:64%;display:inline-block}
+.find_back .find-back .identify-code span{display:inline-block;width:34%}
+.find_back .find-back .footer{margin-top:1rem}
+.find_back .find-back .footer .register{float:right}

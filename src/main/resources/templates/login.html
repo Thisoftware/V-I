@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/static/css/style.default.css"/>
+    <script type="text/javascript" src="/static/js/jquery.js"></script>
+    <script type="text/javascript" src="/static/js/user.js"></script>
+    <script type="text/javascript" src="/static/js/image.js"></script>
+</head>
+<body>
+<div class="contents">
+    <div class="login">
+        <div class="logo">
+            <h1 class="logo"><span>USER-CENTER</span></h1>
+            <span class="slogan">后台管理系统</span>
+        </div>
+        <div>
+            <input type="text" id="username" name="username" class="form-control" placeholder="用户名"/>
+            <input type="password" id="password" name="password" class="form-control" placeholder="密码"/>
+            <button class="btn btn-info" onclick="$userjs.login()"> 登录</button>
+        </div>
+        <div class="footer">
+            <span>忘记密码？<a href="/findback">找回</a></span>
+            <a href="/register" class="register">注册</a>
+        </div>
+    </div>
+</div>
+<div id="tab">
+    <img src="http://test.chexingzhihui.com/image/11.jpg"/>
+    <img src="http://test.chexingzhihui.com/image/22.jpg"/>
+</div>
+</body>
+</html>

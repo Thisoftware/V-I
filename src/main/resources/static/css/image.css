@@ -1,0 +1,40 @@
+body{overflow-y:scroll;font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;background:#f4f4f4;padding:0;margin:0;}
+#dear {margin: 3px;padding: 3px;color: darkmagenta;font-size: 20px;}
+a,a:hover{border:none;text-decoration:none;}
+img,a img{border:none;}
+li :hover {
+    filter:alpha(Opacity=80);
+    -moz-opacity:0.8;opacity: 0.8
+}
+ul{clear: both}
+pre{overflow-x:scroll;background:#ffffff;border:1px solid #cecece;padding:10px;}
+.zoomed > .container{-webkit-filter:blur(3px);filter:blur(3px);}
+.container{width:860px;margin:20px auto;}
+.gallery{list-style-type:none;float:left;}
+.gallery li{float:left;margin:1px; width:160px; height:160px;}
+.gallery li:nth-child(6n){padding-right:0;}
+.gallery li a,.gallery li img{float:left;}
+
+/*column*/
+.nav ul{width: 980px; height: 38px; margin: 0;padding: 0px}
+.nav ul li{float: right; list-style-type: none}
+.nav ul li a{
+    width: 80px;
+    height: 28px;
+    line-height: 28px;
+    background: darkmagenta;
+    color: #FFF;
+    margin: 5px 10px;
+    font-size: 12px;
+    display: block;/*这个比较关键，因为a本身就是联级元素，本身不具有宽高，用这个把它变成块级元素，这样前面设置的宽和高就能起作用了*/
+    text-align: center;
+    text-decoration: none;/*去掉下划线*/
+}
+.nav ul li a:hover{
+    width: 78px;
+    height: 26px;
+    line-height: 28px;
+    border: 1px solid darkmagenta;
+    color: white;
+    background: mediumpurple;
+}
