@@ -16,8 +16,8 @@ pre{overflow-x:scroll;background:#ffffff;border:1px solid #cecece;padding:10px;}
 .gallery li a,.gallery li img{float:left;}
 
 /*column*/
-.nav ul{width: 980px; height: 38px; margin: 0;padding: 0px}
-.nav ul li{float: right; list-style-type: none}
+.nav ul{width: 980px; height: 38px; margin: 0;padding: 0px;position: fixed}
+.nav ul li{float: right;list-style-type: none}
 .nav ul li a{
     width: 80px;
     height: 28px;
